@@ -1,0 +1,389 @@
+
+
+body{
+    text-align: center;
+    background-color: white;
+    background-image: url(../images/grey-background.2.jpg);
+
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+    text-shadow: 2px 2px 3px #a869cc;
+
+}
+
+h2{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 36px; 
+    color: rgb(112, 112, 112);
+    text-shadow:  3px 1px 1px #cc9ddac5;
+}
+
+h3{
+    text-transform: uppercase;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 26px;
+    color: #474747;
+    text-shadow:  2px 1px 3px #3e0d5a83;
+}
+
+h4{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+}
+
+h5{
+    font-family: 'Italianno', cursive;
+    font-size: 30px;
+    color: rgb(112, 112, 112);
+    margin:0;
+}
+
+
+
+
+/* ====================Heading============================ */
+
+.head{
+    padding: 20px;
+    
+}
+
+#access_nav,
+#close_nav{ 
+    font-weight: bolder;
+    font-size: 36px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.226);
+    width: 10%;
+    border-radius: 50%;
+    border:solid black
+}
+
+#navi{
+    position: absolute;
+    background-color: #ffffffbd;
+    z-index: 3;
+}
+
+.with_nav #navi {
+    display: block;
+}
+
+li{
+    text-decoration: none;
+    padding:5px;
+}
+
+a{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 26px;
+    text-decoration: none;
+    color:rgb(116, 116, 116);
+}
+
+a:hover{
+    color: rgb(109, 109, 143);
+    text-shadow:  1px 1px 3px #00000083;
+}
+
+/* ===================Home Page============================= */
+
+.home{
+    margin-top: 10%
+}
+
+
+#description{
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #000000;
+    text-shadow:  10px 21px 3px #a869cc;
+    
+}
+/* ======================About Me========================== */
+
+#about{
+    margin-top: 10%;
+    
+}
+
+.aboutMePic{
+    border-radius: 20%;
+    width: 330px;
+}
+
+.aboutTitle{
+   margin-bottom: 76px;
+}
+
+.aboutText{
+    font-family: 'Source Serif Pro', serif;
+    margin-right: 30px;
+    font-weight: bolder;
+    color: #3d0150
+}
+
+/* ======================Reasume========================== */
+
+#reasume{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(202, 202, 202));
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.reasumeHead{
+    font-size: 26px;
+}
+
+.reasumeInfo{
+    text-align: left;
+    margin-left: 30px;
+}
+
+#reasume ul li {
+    list-style-type: circle;
+    margin-left: 40px
+  }
+
+  #expect{
+    text-align: center
+  }
+
+  #edu{
+    text-align: center
+  }
+
+  #reasume h5{
+      font-size: 24px;
+  }
+
+  #reasume p{
+    font-family: 'Times New Roman', Times, serif 
+}
+
+i{
+    color:rgb(95, 95, 95)
+}
+/* ======================Web Projects========================= */
+#web{
+    margin: 5%
+}
+
+.web-contain h4{
+    color:rgb(255, 255, 255);
+    text-shadow:  1px 1px 3px #00000083;
+}
+
+.web-contain p{
+    color:rgb(97, 97, 97);
+}
+
+.flip-box {
+    background-color: transparent;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: rgba(255, 255, 255, 0.404);
+    color: black;
+  }
+
+  .flip-box-back {
+    background-color: rgba(168, 168, 168, 0.466);
+    color: rgb(7, 7, 7);
+    transform: rotateY(180deg);
+  }
+
+  #web a{
+      background-color: rgb(241, 241, 241);
+      border-radius: 5%;
+      padding: 5px;
+      font-size: 16px;
+  }
+  
+
+/* ======================Writing Samples========================== */
+
+#samples h2{
+    margin: 7% 
+}
+
+
+#samples h3{
+    font-size: 20px;
+}
+
+#samples a{
+    font-size: 16px;
+}
+
+.samp{
+    border-bottom: solid rgb(173, 173, 173) 1px
+}
+
+
+
+
+/* ======================Contact Info========================== */
+
+#contact {
+    background-image: url();
+    background-size: cover;
+    margin-top: 15%;
+    
+}
+
+ul.telMail{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.soc{
+    display:flex;
+    justify-content: center;
+}
+
+svg{
+    padding-right:7px;
+}
+
+svg:hover{
+    transform: scale(1.5);
+}
+
+
+/* ======================================================= */
+
+.hide{
+    display:none;
+    top:-10%;
+    bottom: 0
+}
+
+
+
+
+/* ==========================Media Q============================= */
+
+@media(min-width: 640px) {
+
+    .container{
+        display:grid;
+        grid-template-columns:1fr 3fr;
+        grid-template-areas: 
+        "nav body"
+    }
+
+    .head{
+        grid-area: nav;
+        border-bottom: none;
+    }
+
+    #navi{
+        display: flex;
+        flex-direction: column;
+        border-right: double 5px; 
+        margin-top: 60%;
+        position: relative;
+        margin-left: 0;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    #access_nav{
+        display:none;
+    }
+
+    #close_nav{
+        display:none;
+    }
+
+    li{
+        padding-top:20px;
+    }
+
+    a{
+        white-space: nowrap;
+    }
+    
+    .container2{
+        grid-area: body;
+        
+    }
+
+    .home{
+        text-align: center;
+    }
+
+    
+}
+
+
+@media(min-width : 1224px) {
+
+    .aboutTitle{
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+
+    .aboutInfo{
+       display: flex;
+       margin-left: auto;
+       margin-right: auto;
+       justify-content: center;
+    }
+
+    .aboutText{
+        padding-left:30px;
+        margin-right: 30px;
+    }
+
+    .web-contain{
+        display:flex;
+        flex-wrap: wrap
+    }
+
+    .writtenWork{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr
+    }
+    .samp{
+        border-bottom: none;
+    }
+
+}
