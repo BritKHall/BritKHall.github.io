@@ -4,7 +4,6 @@ body{
     text-align: center;
     background-color: white;
     background-image: url(../images/grey-background.2.jpg);
-
 }
 
 h1{
@@ -163,7 +162,7 @@ a:hover{
   }
 
   #reasume p{
-    font-family: 'Times New Roman', Times, serif 
+    font-family: 'Times New Roman', Times, serif;
 }
 
 i{
@@ -171,7 +170,7 @@ i{
 }
 /* ======================Web Projects========================= */
 #web{
-    margin: 5%
+    margin: 5%;
 }
 
 .web-contain h4{
@@ -181,6 +180,7 @@ i{
 
 .web-contain p{
     color:rgb(97, 97, 97);
+    font-weight: bolder
 }
 
 
@@ -190,6 +190,10 @@ i{
       padding: 5px;
       font-size: 16px;
       color: white;
+  }
+
+  #web a:hover{
+    color: rgb(255, 254, 199)
   }
 
   .flip-box{
