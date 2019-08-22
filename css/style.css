@@ -222,7 +222,7 @@ i{
 
   .flip-box-back {
     background-color: rgb(0, 0, 0);
-    color: rgb(7, 7, 7);
+    color: rgb(212, 212, 212);
     transform: rotateY(180deg);
   }
 
