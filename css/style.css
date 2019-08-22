@@ -194,8 +194,12 @@ i{
 
   .flip-box{
       margin-bottom:20%;
+      border-bottom: solid rgb(105, 103, 103) 3px;
   }
   
+  .flip-box-inner{
+    margin-bottom:10%;
+  }
 
 /* ======================Writing Samples========================== */
 
@@ -282,7 +286,7 @@ svg:hover{
         flex-direction: column;
         border-right: double 5px; 
         margin-top: 60%;
-        position: relative;
+        position: static;
         margin-left: 0;
         background-color: rgba(0, 0, 0, 0);
     }
@@ -310,6 +314,45 @@ svg:hover{
 
     .home{
         text-align: center;
+    }
+
+
+    
+}
+
+
+@media(min-width : 1224px) {
+
+    .aboutTitle{
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+
+    .aboutInfo{
+       display: flex;
+       margin-left: auto;
+       margin-right: auto;
+       justify-content: center;
+    }
+
+    .aboutText{
+        padding-left:30px;
+        margin-right: 30px;
+    }
+
+    .web-contain{
+        display:flex;
+        flex-wrap: wrap
+    }
+
+    .writtenWork{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr
+    }
+    .samp{
+        border-bottom: none;
     }
 
     .web-contain h4{
@@ -363,42 +406,5 @@ svg:hover{
         color: rgb(7, 7, 7);
         transform: rotateY(180deg);
       }
-    
-}
-
-
-@media(min-width : 1224px) {
-
-    .aboutTitle{
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-    }
-
-
-    .aboutInfo{
-       display: flex;
-       margin-left: auto;
-       margin-right: auto;
-       justify-content: center;
-    }
-
-    .aboutText{
-        padding-left:30px;
-        margin-right: 30px;
-    }
-
-    .web-contain{
-        display:flex;
-        flex-wrap: wrap
-    }
-
-    .writtenWork{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr
-    }
-    .samp{
-        border-bottom: none;
-    }
 
 }
