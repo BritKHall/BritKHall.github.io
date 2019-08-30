@@ -44,7 +44,7 @@ navClose.addEventListener('click', function(e) {
 
 const homeNav = document.getElementById('home-nav');
 const aboutNav = document.getElementById('about-nav');
-const reasumeNav = document.getElementById('reasume-nav');
+const resumeNav = document.getElementById('resume-nav');
 const webNav= document.getElementById('web-nav');
 const samplesNav= document.getElementById('samples-nav');
 const contactNav = document.getElementById('contact-nav');
@@ -52,7 +52,7 @@ const home= document.getElementById("home");
 
 const contact= document.getElementById("contact");
 const about= document.getElementById("about");
-const reasume= document.getElementById("reasume");
+const resume= document.getElementById("resume");
 const web= document.getElementById("web");
  const samples= document.getElementById("samples");
 
@@ -60,7 +60,7 @@ const web= document.getElementById("web");
 homeNav.addEventListener('click', function() {
     home.classList.remove("hide");
     contact.classList.add("hide");
-    reasume.classList.add("hide");
+    resume.classList.add("hide");
     web.classList.add("hide");
     samples.classList.add("hide");
     about.classList.add("hide");
@@ -69,14 +69,14 @@ homeNav.addEventListener('click', function() {
 aboutNav.addEventListener('click', function() {
     about.classList.remove("hide");
     home.classList.add("hide");
-    reasume.classList.add("hide");
+    resume.classList.add("hide");
     web.classList.add("hide");
     samples.classList.add("hide");
     contact.classList.add("hide");
   });
 
-  reasumeNav.addEventListener('click', function() {
-    reasume.classList.remove("hide");
+  resumeNav.addEventListener('click', function() {
+    resume.classList.remove("hide");
     home.classList.add("hide");
     about.classList.add("hide");
     web.classList.add("hide");
@@ -87,7 +87,7 @@ aboutNav.addEventListener('click', function() {
   webNav.addEventListener('click', function() {
     web.classList.remove("hide");
     home.classList.add("hide");    
-    reasume.classList.add("hide");
+    resume.classList.add("hide");
     about.classList.add("hide");
     samples.classList.add("hide");
     contact.classList.add("hide");
@@ -98,7 +98,7 @@ aboutNav.addEventListener('click', function() {
     const samples= document.getElementById("samples");
     samples.classList.remove("hide");
     home.classList.add("hide");
-    reasume.classList.add("hide");
+    resume.classList.add("hide");
     web.classList.add("hide");
     about.classList.add("hide");
     contact.classList.add("hide");
@@ -108,7 +108,7 @@ aboutNav.addEventListener('click', function() {
   contactNav.addEventListener('click', function() {
     contact.classList.remove("hide");
     home.classList.add("hide");
-    reasume.classList.add("hide");
+    resume.classList.add("hide");
     web.classList.add("hide");
     samples.classList.add("hide");
     about.classList.add("hide");
@@ -116,7 +116,7 @@ aboutNav.addEventListener('click', function() {
 
 
 
-// =======================Reasume Navigation==========================================
+// =======================resume Navigation==========================================
   
 
 const expectBtn = document.getElementById('expectBtn');

@@ -127,24 +127,24 @@ a:hover{
     color: #3d0150
 }
 
-/* ======================Reasume========================== */
+/* ======================resume========================== */
 
-#reasume{
+#resume{
     background-image: linear-gradient(rgb(255, 255, 255), rgb(202, 202, 202));
     margin-top: 5%;
     margin-right: 5%;
 }
 
-.reasumeHead{
+.resumeHead{
     font-size: 26px;
 }
 
-.reasumeInfo{
+.resumeInfo{
     text-align: left;
     margin-left: 30px;
 }
 
-#reasume ul li {
+#resume ul li {
     list-style-type: circle;
     margin-left: 40px
   }
@@ -157,11 +157,11 @@ a:hover{
     text-align: center
   }
 
-  #reasume h5{
+  #resume h5{
       font-size: 24px;
   }
 
-  #reasume p{
+  #resume p{
     font-family: 'Times New Roman', Times, serif;
 }
 
