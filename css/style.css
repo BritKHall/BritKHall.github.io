@@ -104,6 +104,13 @@ a:hover{
     text-shadow:  10px 21px 3px #a869cc;
     
 }
+
+
+.flowerhome{
+    width: 200px;
+    border-radius: 50%;
+}
+
 /* ======================About Me========================== */
 
 #about{
@@ -236,6 +243,7 @@ i{
     
 }
 
+
 ul.telMail{
     display:flex;
     flex-direction: column;
@@ -272,6 +280,8 @@ svg:hover{
 /* ==========================Media Q============================= */
 
 @media(min-width: 640px) {
+
+
 
     .container{
         display:grid;
@@ -318,6 +328,15 @@ svg:hover{
 
     .home{
         text-align: center;
+    }    
+    
+    .flowerhome{
+        width: 30%;
+    }
+
+    .contact-content{
+        display:flex;
+        justify-content: center;
     }
 
 
